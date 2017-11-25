@@ -1,15 +1,16 @@
-.header {}
+@font-face {
+    font-family: 'Aller Light';
+    src: url('fonts/Aller_Lt.ttf');
+}
 
 header {box-shadow: 1px 1px 8px #bbb;}
-
-html {
-}
 
 header h1 {
     margin: 0;
 }
 
 body {
+    font-family: 'Aller Light';
 }
 
 article {
@@ -23,9 +24,6 @@ article .h2 {
 }
 
 h2, h3 {
-    /* border-bottom: 1px solid #eee; */
-    /* padding-bottom: 0.3em; */
-    /* font-size: 1.5em; */
     line-height: 1.25;
     margin: 1.5rem 0 1rem 0;
 }
@@ -42,7 +40,6 @@ h3 {
 
 li+li {
     margin-top: 0.25em;
-    /* line-height: 1.5; */
 }
 
 p, li {
