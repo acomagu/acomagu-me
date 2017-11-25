@@ -1,0 +1,16 @@
+[debug] [2017-11-25T16:00:09.977Z] ----------------------------------------------------------------------
+[debug] [2017-11-25T16:00:09.983Z] Command:       /home/yuki/.local/share/linuxbrew/Cellar/node/8.9.1/bin/node /home/yuki/.local/share/linuxbrew/bin/firebase deploy
+[debug] [2017-11-25T16:00:09.984Z] CLI Version:   3.15.3
+[debug] [2017-11-25T16:00:09.984Z] Platform:      linux
+[debug] [2017-11-25T16:00:09.984Z] Node Version:  v8.9.1
+[debug] [2017-11-25T16:00:09.984Z] Time:          Sun Nov 26 2017 01:00:09 GMT+0900 (JST)
+[debug] [2017-11-25T16:00:09.984Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-25T16:00:10.017Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-25T16:00:10.018Z] > authorizing via signed-in user
+[debug] [2017-11-25T16:00:10.024Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/acomagu-me  
+ Sun Nov 26 2017 01:00:10 GMT+0900 (JST)
+[debug] [2017-11-25T16:00:10.952Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-25T16:00:10.954Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/acomagu-me/tokens  
+ Sun Nov 26 2017 01:00:10 GMT+0900 (JST)
+[debug] [2017-11-25T16:00:11.889Z] <<< HTTP RESPONSE 200
