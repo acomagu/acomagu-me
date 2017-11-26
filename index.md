@@ -2,7 +2,7 @@
 
 # acomagu.me
 
-A student learning at University of Aizu.
+A student at University of Aizu.
 
 </div></header>
 
