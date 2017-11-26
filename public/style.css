@@ -3,7 +3,13 @@
     src: url('fonts/Aller_Lt.ttf');
 }
 
-header {box-shadow: 1px 1px 8px #bbb;}
+.container {
+    padding-bottom: 1em;
+}
+
+header {
+    box-shadow: 1px 1px 8px #bbb;
+}
 
 header h1 {
     margin: 0;
@@ -19,17 +25,12 @@ article {
     margin: 0 auto;
 }
 
-article .h2 {
-    border-bottom: 1px solid #aaa;
-}
-
 h2, h3 {
     line-height: 1.25;
     margin: 1.5rem 0 1rem 0;
 }
 
 h2 {
-    border-bottom: 1px solid #eee;
     padding-bottom: 0.3em;
     font-size:  1.5em;
 }
@@ -50,4 +51,68 @@ p, li {
     padding: 10% 5% 1% 7%;
     max-width: 700px;
     margin: 0 auto;
+}
+
+
+.color-switch {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+    width: 2.8em;
+}
+
+.color-switch-input {
+    display: none;
+}
+
+.color-switch label {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.color-switch-light {
+    background: white;
+}
+
+.color-switch-dark {
+    background: #08202f;
+}
+
+.color-switch-input-light:checked ~ .container  {
+    background: white;
+    color: #25292b;
+}
+
+.color-switch-input-dark:checked ~ .container {
+    background: #0e1113;
+    color: #dce4e8;
+}
+
+.color-switch-input-dark:checked ~ .container header {
+    box-shadow: 1px 1px 8px #555;
+}
+
+.color-switch-input-dark:checked ~ .container a:link,
+.color-switch-input-dark:checked ~ .container a:visited {
+    color: #dce4e8;
+}
+
+.color-switch-input-light:checked ~ .container h2 {
+    border-bottom: 1px solid #eee;
+}
+
+.color-switch-input-dark:checked ~ .container h2 {
+    border-bottom: 1px solid #223;
+}
+
+.container {
+    transition-property: background, color, border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
