@@ -111,12 +111,15 @@ p, li {
     border-bottom: 1px solid #223;
 }
 
-.color-switch-input-light:checked ~ .container .github-icon-link {
-    color: #25292b;
+.github-icon-link {
     font-size: 1.3em;
     vertical-align: middle;
     margin-left: 0.1em;
     line-height: 0;
+}
+
+.color-switch-input-light:checked ~ .container .github-icon-link {
+    color: #25292b;
 }
 
 .container {
