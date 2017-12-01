@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: devillex/docker-firebase
+    steps:
+      - checkout
+      - run:
+          command: firebase deploy --token $FIREBASE_TOKEN
