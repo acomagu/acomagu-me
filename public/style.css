@@ -111,8 +111,27 @@ p, li {
     border-bottom: 1px solid #223;
 }
 
+.color-switch-input-light:checked ~ .container .github-icon-link {
+    color: #25292b;
+    font-size: 1.3em;
+    vertical-align: middle;
+    margin-left: 0.1em;
+    line-height: 0;
+}
+
 .container {
     transition-property: background, color, border;
     transition-duration: 0.3s;
     transition-timing-function: ease;
+}
+
+.profile-name {
+    vertical-align: middle;
+    font-size: 1.3em;
+    padding: 0.4em;
+}
+
+.profile-image {
+    height: 3em;
+    width: 3em;
 }
